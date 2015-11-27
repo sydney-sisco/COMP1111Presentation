@@ -1,5 +1,8 @@
-body {
-  //background-color: #21252b; //file selection background color
+html, body {
+
+  color: #ABB2BF;
   background-color: #282c34; //editor background color
-  color: #abb2bf;
+
+  /*background-color: #21252b; //file selection background color*/
+
 }
