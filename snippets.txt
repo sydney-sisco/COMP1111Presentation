@@ -1,0 +1,12 @@
+'.text.html.basic':
+  'insert bootstrap CDN link':
+    'prefix': 'bootstrap'
+    'body': '<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">'
+
+  'insert external css link':
+    'prefix': 'css'
+    'body': '<link rel="stylesheet" type="text/css" href="${3:style/${2:style}.css}" />$1'
+
+  'insert external javascript link':
+    'prefix': 'js'
+    'body': '<script src="${3:scripts/${2:script}.js}"></script>$1'
