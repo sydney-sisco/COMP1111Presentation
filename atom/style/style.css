@@ -15,6 +15,10 @@ p {
   color: #e06c75;
 }
 
+.comment {
+  color: #98c379;
+}
+
 section {
     margin-left: 160px;
 }
