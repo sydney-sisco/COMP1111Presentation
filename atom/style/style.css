@@ -6,6 +6,9 @@ html, body {
   min-height: 2000px;
   /*background-color: #21252b; //file selection background color*/
 }
+body {
+  margin: 0;
+}
 
 div {
   margin-left: 165px;
@@ -28,7 +31,7 @@ section {
 }
 
 .light {
-  background-color: white;
+  background-color: #9fd4c3;
 }
 
 .container {
