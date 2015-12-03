@@ -1,6 +1,6 @@
 html, body {
 
-  color: #e06c75;
+  color: #ABB2BF;
   font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
   /*background-color: #21252b; //file selection background color*/
 }
@@ -9,7 +9,7 @@ body {
 }
 
 p {
-  color: #ABB2BF;
+  color: #e06c75;
 }
 
 .comment {
@@ -20,25 +20,10 @@ section {
     margin-left: 165px;
 }
 
-.dark {
-}
-
-.light {
-  color: #e45649;
-
-}
-
-.light p {
-  color: #383a42;
-}
-
-.light .comment {
-  color: #50a14f;
-}
-
 .container {
   overflow: hidden;
 }
+
 
 img.atomlogo {
   position: absolute;
