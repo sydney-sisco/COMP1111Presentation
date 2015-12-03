@@ -1,6 +1,6 @@
 html, body {
 
-  color: #ABB2BF;
+  color: #e06c75;
   font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
   /*background-color: #21252b; //file selection background color*/
 }
@@ -9,7 +9,7 @@ body {
 }
 
 p {
-  color: #e06c75;
+  color: #ABB2BF;
 }
 
 .comment {
@@ -24,6 +24,16 @@ section {
 }
 
 .light {
+  color: #e45649;
+
+}
+
+.light p {
+  color: #383a42;
+}
+
+.light .comment {
+  color: #50a14f;
 }
 
 .container {
