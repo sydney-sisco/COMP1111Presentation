@@ -18,6 +18,7 @@ p {
 
 section {
     margin-left: 165px;
+    margin-right: 100px;
 }
 
 .container {
@@ -35,8 +36,9 @@ img.atomlogo {
 
 .fp-controlArrow.fp-prev {
     left: 50px;
+    border-color: transparent #e06c75 transparent transparent;
 }
 
 .fp-controlArrow.fp-next{
     right: 50px;
-}
+    border-color: transparent transparent transparent #e06c75;}
