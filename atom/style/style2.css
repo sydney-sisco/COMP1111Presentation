@@ -2,6 +2,7 @@ html, body {
 
   color: #ABB2BF;
   font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+  font-size: 115%;
   /*background-color: #21252b; //file selection background color*/
 }
 body {
@@ -18,6 +19,10 @@ p {
 
 .floatright {
   float:right;
+}
+
+dl {
+  font-size: 120%;
 }
 
 section {
