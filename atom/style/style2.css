@@ -1,0 +1,39 @@
+html, body {
+
+  color: #ABB2BF;
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+  /*background-color: #21252b; //file selection background color*/
+}
+body {
+  margin: 0;
+}
+
+p {
+  color: #e06c75;
+}
+
+.comment {
+  color: #98c379;
+}
+
+section {
+    margin-left: 165px;
+}
+
+.dark {
+}
+
+.light {
+}
+
+.container {
+  overflow: hidden;
+}
+
+img.atomlogo {
+  position: absolute;
+}
+
+#fp-nav ul li a span {
+    background: red;
+}
