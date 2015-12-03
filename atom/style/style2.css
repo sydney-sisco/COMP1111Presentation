@@ -20,6 +20,10 @@ p {
   float:right;
 }
 
+.floatleft {
+  float:left;
+}
+
 section {
     margin-left: 165px;
     margin-right: 100px;
