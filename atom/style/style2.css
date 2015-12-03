@@ -16,6 +16,10 @@ p {
   color: #98c379;
 }
 
+.floatright {
+  float:right;
+}
+
 section {
     margin-left: 165px;
     margin-right: 100px;
