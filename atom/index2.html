@@ -10,13 +10,14 @@
     <script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#282c34', '#fafafa', '#282c34', '#fafafa', '#282c34', '#fafafa', '#282c34'],
+				sectionsColor: ['#282c34', '#fafafa', '#282c34', '#fafafa', '#282c34', '#fafafa', '#282c34', '#fafafa'],
 				anchors: ['aboutatom', 'github', 'snippets', 'packages'],
                 verticalCentered: false,
 				menu: '#menu',
                 navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['About Atom', 'GitHub', 'Snippets', 'Packages']
+				navigationTooltips: ['About Atom', 'GitHub', 'Snippets', 'Packages'],
+                slidesNavigation: true
 			});
 		});
 	</script>
@@ -36,7 +37,7 @@
             </section>
         </div>
         <div class="section container light">
-            <div class="slide" id="slide1">
+            <div class="slide">
                 <img src="images/atom-mark2.png" class="atomlogo"></img>
                 <section>
                     <h2>Github Integration</h2>
@@ -45,7 +46,7 @@
                     <img src="Images/github-2.png" alt="git2"></img>
                 </section>
             </div>
-            <div class="slide" id="slide2">
+            <div class="slide">
                 <img src="images/atom-mark2.png" class="atomlogo"></img>
                 <section>
                     <h2>Github Integration</h2>
@@ -66,32 +67,44 @@
             </section>
         </div>
         <div class="section container light">
-            <img src="images/atom-mark2.png" class="atomlogo"></img>
-            <section>
-                <h2>Packages</h2>
-                <p>Packages can be incredibly powerful and can change everything from the very look and feel of the entire interface to the basic operation of core functionality.</p>
-                <h3>Minimap</h3>
-                <img src="Images/packages-minimap.png" alt="minimap"></img>
-                <p>Minimap displays a condensed view of your code for quick navigation.</p>
-            </section>
-        </div>
-        <div class="section container dark">
-            <img src="images/atom-mark.png" class="atomlogo"></img>
-            <section>
-                <h3>Git-Control</h3>
-                <img src="images/git-control-ss.png" alt="git control"/>
-                <p>Provides a GUI interface to manage all commonly-used git commands.</p>
-            </section>
-        </div>
-        <div class="section container light">
-            <img src="images/atom-mark2.png" class="atomlogo"></img>
-            <section>
-                <h3>Atom HTML Preview</h3>
-                <p>A live preview tool for Atom</p>
-                <h3>Pigments</h3>
-                <p>A package to display colors in project and files</p>
-                <img src="Images/packages-pigments.png" alt="pigments"></img>
-            </section>
+            <div class="slide">
+                <img src="images/atom-mark2.png" class="atomlogo"></img>
+                <section>
+                    <h2>Packages</h2>
+                    <p>Packages can be incredibly powerful and can change everything from the very look and feel of the entire interface to the basic operation of core functionality.</p>
+                </section>
+            </div>
+            <div class="slide">
+                <img src="images/atom-mark2.png" class="atomlogo"></img>
+                <section>
+                    <h2>Minimap</h2>
+                    <img src="Images/packages-minimap.png" alt="minimap"></img>
+                    <p>Minimap displays a condensed view of your code for quick navigation.</p>
+                </section>
+            </div>
+            <div class="slide">
+                <img src="images/atom-mark2.png" class="atomlogo"></img>
+                <section>
+                    <h2>Git-Control</h2>
+                    <img src="images/git-control-ss.png" alt="git control"/>
+                    <p>Provides a GUI interface to manage all commonly-used git commands.</p>
+                </section>
+            </div>
+            <div class="slide">
+                <img src="images/atom-mark2.png" class="atomlogo"></img>
+                <section>
+                    <h2>Atom HTML Preview</h2>
+                    <p>A live preview tool for Atom</p>
+                </section>
+            </div>
+            <div class="slide">
+                <img src="images/atom-mark2.png" class="atomlogo"></img>
+                <section>
+                    <h2>Pigments</h2>
+                    <p>A package to display colors in project and files</p>
+                    <img src="Images/packages-pigments.png" alt="pigments"></img>
+                </section>
+            </div>
         </div>
         <div class="section container dark">
             <img src="images/atom-mark.png" class="atomlogo"></img>
