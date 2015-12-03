@@ -7,6 +7,10 @@ html, body {
   /*background-color: #21252b; //file selection background color*/
 }
 
+div {
+  margin-left: 165px;
+}
+
 p {
   color: #e06c75;
 }
@@ -27,6 +31,7 @@ section {
   min-height: 400px;
   overflow: hidden;
   position: relative;
+  margin-left: 0px;
 }
 
 .default-img {
