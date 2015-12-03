@@ -20,15 +20,10 @@ section {
     margin-left: 165px;
 }
 
-.dark {
-}
-
-.light {
-}
-
 .container {
   overflow: hidden;
 }
+
 
 img.atomlogo {
   position: absolute;
