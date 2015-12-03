@@ -47,3 +47,11 @@ img.atomlogo {
 #fp-nav ul li a span {
     background: red;
 }
+
+.fp-controlArrow.fp-prev {
+    left: 50px;
+}
+
+.fp-controlArrow.fp-next{
+    right: 50px;
+}
