@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Git-Control Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css"/>
+    <link rel="stylesheet" type="text/css" href="style/style2.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.fullPage.min.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#282c34', '#fafafa', '#282c34', '#fafafa', '#282c34', '#fafafa', '#282c34', '#fafafa'],
+				anchors: ['Intro', 'github', 'ssh', 'packages'],
+                verticalCentered: false,
+				menu: '#menu',
+                navigation: true,
+				navigationPosition: 'right',
+                slidesNavigation: true,
+                loopHorizontal: false
+			});
+		});
+	</script>
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section container dark">
+            <img src="images/atom-mark.png" class="atomlogo"></img>
+            <section>
+                <h2>Git-Control</h2>
+                <img src="images/git-control-ss.png" alt="git control" class="floatright" height="450px"/>
+                <p>Provides a GUI interface to manage all commonly-used git commands.</p>
+                <p>This is a tutorial to install and set up the Git-Control properly.</p>
+            </section>
+        </div>
+        <div class="section container light">
+            <img src="images/atom-mark2.png" class="atomlogo"></img>
+            <section>
+                <img class="floatright" src="images/git-control-install.png" alt="git control install" height="600px"/>
+                <h2>Install Git-Control Package</h2>
+                <p>Install the package directly in Atom</p>
+                <p>Go to the Install window in Settings tab in Atom</p>
+                <p>Search for git-control and install the package</p>
+            </section>
+        </div>
+        <div class="section container dark">
+            <img src="images/atom-mark.png" class="atomlogo"></img>
+            <section>
+                <h2>Configure Repository to use SSH</h2>
+                <p>Change the clone url from HTTPS to SSH</p>
+                <img src="images/github-ssh.png" alt="https to ssh" />
+                <p>Clone repository onto the device</p>
+                <p>If the repository is already on the device, change the remote URL from HTTPS to SSH</p>
+                <p>using instructions from:</p>
+                <a href="https://help.github.com/articles/changing-a-remote-s-url/#switching-remote-urls-from-https-to-ssh">Switching remote URLs from HTTPS to SSH</a>
+            </section>
+        </div>
+        <div class="section container light">
+            <img src="images/atom-mark2.png" class="atomlogo"></img>
+            <section>
+                <img class="floatright" src="images/ssh-keys.png" alt="ssh key" height="600px"/>
+                <h2>Generating a SSH Key</h2>
+                <p>Follow the instructions here to generate a SSH key locally and adding it to your GitHub account:</p>
+                <a href="https://help.github.com/articles/generating-ssh-keys/">Generating SSH keys</a>
+                <p>Note: git-control only works with SSH keys with no passphrase</p>
+            </section>
+        </div>
+        <div class="section container dark">
+            <img src="images/atom-mark.png" class="atomlogo"></img>
+            <section>
+                <img class="floatright" src="images/git-control-env-var.png" alt="environment variables" height="600px"/>
+                <h2>Adding Git to PATH</h2>
+                <p>Open up the Advance System Settings from System Properties</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

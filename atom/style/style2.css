@@ -50,4 +50,9 @@ img.atomlogo {
 
 .fp-controlArrow.fp-next{
     right: 50px;
-    border-color: transparent transparent transparent #e06c75;}
+    border-color: transparent transparent transparent #e06c75;
+}
+
+a {
+    color: #e06c75;
+}
