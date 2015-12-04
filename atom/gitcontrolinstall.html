@@ -11,7 +11,7 @@
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				sectionsColor: ['#282c34', '#fafafa', '#282c34', '#fafafa', '#282c34', '#fafafa', '#282c34', '#fafafa'],
-				anchors: ['Intro', 'github', 'ssh', 'packages'],
+				anchors: ['intro', 'package', 'ssh', 'sshkey', 'path'],
                 verticalCentered: false,
 				menu: '#menu',
                 navigation: true,
@@ -68,9 +68,22 @@
         <div class="section container dark">
             <img src="images/atom-mark.png" class="atomlogo"></img>
             <section>
-                <img class="floatright" src="images/git-control-env-var.png" alt="environment variables" height="600px"/>
+                <img class="floatright" src="images/git-control-env-var.png" alt="environment variables" height="450px"/>
                 <h2>Adding Git to PATH</h2>
                 <p>Open up the Advance System Settings from System Properties</p>
+                <p>Open the Environment Variables window and add the Git path to the system variable PATH</p>
+                <p>Note: the default path for Windows is "C:\Users\username\AppData\Local\Programs\Git\cmd"</p>
+            </section>
+        </div>
+        <div class="section container light">
+            <img src="images/atom-mark2.png" class="atomlogo"></img>
+            <section>
+                <img class="floatright" src="images/git-control-final.png" alt="final" height="600px"/>
+                <h2>Final Instructions</h2>
+                <p>Perform a git pull in Git Bash once</p>
+                <p>Got to Atom and open up the Git-Control tab using:</p>
+                <p class="comment">/* keyboard shortcut: "ctrl+alt+o" */</p>
+                <p>If there isn't any error msgs in the console logs then Git-Control is all set up</p>
             </section>
         </div>
     </div>
